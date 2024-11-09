@@ -185,7 +185,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 PRODUCT_PACKAGES += \
-    libdrm.vendor
+    libutils.vendor
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -370,7 +370,9 @@ PRODUCT_PACKAGES += \
     libnetutils.vendor:64 \
     libsqlite.vendor:64 \
     libprocessgroup.vendor \
+    libdumpstateutil.vendor \
     libjsoncpp.vendor \
+    llibpng.vendor \
     libcurl.vendor \
     libpng.vendor:32
 
