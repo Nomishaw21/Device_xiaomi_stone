@@ -9,6 +9,14 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+# Vendor Dolby
+$(call inherit-product, vendor/dolby/dolby.mk)
+
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/MiuiCameraLeica/config.mk)
+
+# For signed build
+$(call inherit-product-if-exists, vendor/extra/product.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -185,6 +193,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 PRODUCT_PACKAGES += \
+    libcrypto_shim.vendor \
     libutils.vendor
 
 # Fastbootd

@@ -22,3 +22,9 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 ## FUSE
 persist.sys.fuse.passthrough.enable=true
+
+# Battery Saving
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
