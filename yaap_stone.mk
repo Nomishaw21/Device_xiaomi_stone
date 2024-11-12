@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/stone/device.mk)
 
 
 PRODUCT_NAME := yaap_stone
-#PREBUILT_KERNEL := true
+PREBUILT_KERNEL := true
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
