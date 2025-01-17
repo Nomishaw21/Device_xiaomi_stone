@@ -6,3 +6,4 @@ sed -i 's/"qti_kernel_headers"/"qti_kernel_headers_old"/g' vendor/flare/build/so
 
 # Extra
 git clone https://github.com/Nomishaw21/vendor_dolby_moto vendor/dolby
+git clone https://github.com/Nomishaw21/Vendor-micam vendor/MiuiCameraLeica
