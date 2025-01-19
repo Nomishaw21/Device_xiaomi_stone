@@ -76,6 +76,12 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 persist.radio.is_vonr_enabled_0=true
 persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+persist.vendor.radio.volte_enabled=1
+persist.vendor.radio.vt_enabled=1
+persist.vendor.radio.wfc_enabled=1
+persist.vendor.radio.nr_mode_pref=3
+persist.vendor.radio.enable_vonr=1
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
